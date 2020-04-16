@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char curr_time[10];
+  char curr_date[12];
+
+
+  strcpy(curr_time, __TIME__); // __TIME__ display corrent time way 1
+  strcpy(curr_date, __DATE__); //__DATE__ display todays date :) way 1
+  printf("now time is : %s tadays date : %s\n", curr_time, curr_date); //way 1
+  
+  printf("now time is : %s tadays date : %s\n",__TIME__,__DATE__); //way2
+  
+  printf("This is line %d\n", __LINE__); //for line number;
+ 
+  return 0;
+}
