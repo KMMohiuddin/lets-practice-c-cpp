@@ -1,0 +1,94 @@
+#include<stdio.h>
+#include<windows.h>
+COORD coord = {0, 0};
+void gotoxy (int x, int y)
+{
+coord.X = x; coord.Y = y;
+SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
+}
+int main()
+{
+
+    gotoxy(2,4);
+    Sleep(50);
+    printf("\xdb\xdb");
+    gotoxy(2,8);
+    Sleep(50);
+    printf("\xdb\xdb");
+    gotoxy(8,2);
+    Sleep(50);
+    printf("\xdb\xdb");
+    gotoxy(9,3);
+    Sleep(50);
+    printf("\xdb\xdb");
+    gotoxy(3,3);
+    Sleep(50);
+    printf("\xdb\xdb");
+    gotoxy(10,8);
+    Sleep(50);
+    printf("\xdb\xdb");
+    gotoxy(3,9);
+    Sleep(50);
+    printf("\xdb\xdb");
+    gotoxy(5,3);
+    Sleep(50);
+    printf("\xdb\xdb");
+    gotoxy(8,10);
+    Sleep(50);
+    printf("\xdb\xdb");
+    gotoxy(5,11);
+    Sleep(50);
+    printf("\xdb\xdb");
+    gotoxy(3,9);
+    Sleep(50);
+    printf("\xdb\xdb");
+    gotoxy(10,8);
+    Sleep(50);
+    printf("\xdb\xdb");
+    gotoxy(11,6);
+    Sleep(50);
+    printf("\xdb\xdb");
+    gotoxy(1,6);
+    Sleep(100);
+    printf("\xdb\xdb");
+    gotoxy(9,9);
+    Sleep(100);
+    printf("\xdb\xdb");
+    gotoxy(7,11);
+    Sleep(100);
+    printf("\xdb\xdb");
+    gotoxy(6,4);
+    Sleep(100);
+    printf("\xdb\xdb");
+    gotoxy(6,12);
+    Sleep(100);
+    printf("\xdb\xdb");
+    gotoxy(4,10);
+    Sleep(100);
+    printf("\xdb\xdb");
+    gotoxy(1,7);
+    Sleep(100);
+    printf("\xdb\xdb");
+    gotoxy(11,5);
+    Sleep(100);
+    printf("\xdb\xdb");
+    gotoxy(10,4);
+    Sleep(100);
+    printf("\xdb\xdb");
+    gotoxy(7,3);
+    Sleep(100);
+    printf("\xdb\xdb");
+    gotoxy(11,7);
+    Sleep(100);
+    printf("\xdb\xdb");
+    gotoxy(1,5);
+    Sleep(100);
+    printf("\xdb\xdb");
+    gotoxy(4,2);
+    Sleep(100);
+    printf("\xdb\xdb");
+
+    gotoxy(20,21);
+
+
+}
