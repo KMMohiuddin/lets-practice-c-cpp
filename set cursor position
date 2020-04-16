@@ -1,0 +1,14 @@
+COORD coord = {0, 0};
+void gotoxy (int x, int y)
+{
+    coord.X = x;
+    coord.Y = y;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
+}
+void main()
+{
+  gotoxy(4,5);
+  printf(" piche to dekho");
+  return 0;
+
+}
