@@ -8,7 +8,7 @@ SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 }
 int main()
 {
-
+    system("COLOR FC");
     gotoxy(2,4);
     Sleep(50);
     printf("\xdb\xdb");
