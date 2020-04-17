@@ -1,0 +1,79 @@
+#include<stdio.h>
+#include<windows.h>
+COORD coord = {0, 0};
+void gotoxy (int x, int y)
+{
+coord.X = x; coord.Y = y;
+SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
+}
+int main()
+{
+    system("COLOR F3");
+    gotoxy(2,2);Sleep(50);printf("\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2");
+    gotoxy(2,3);Sleep(50);printf("\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2");
+    gotoxy(6,4);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(6,6);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(6,8);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(6,10);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(6,12);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(6,5);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(6,7);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(6,9);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(2,11);Sleep(50);printf("\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2");
+    gotoxy(2,12);Sleep(50);printf("\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2");
+
+    system("COLOR FC");
+    gotoxy(22,4);Sleep(50);printf("\xb2\xb2\xb2");
+    gotoxy(22,8); Sleep(50);printf("\xb2\xb2\xb2");
+    gotoxy(28,2); Sleep(50);printf("\xb2\xb2\xb2");
+    gotoxy(29,3);Sleep(50);printf("\xb2\xb2\xb2");
+    gotoxy(23,3);Sleep(50);printf("\xb2\xb2\xb2");
+    gotoxy(30,8);Sleep(50); printf("\xb2\xb2\xb2");
+    gotoxy(23,9);Sleep(50); printf("\xb2\xb2\xb2");
+    gotoxy(25,3);Sleep(50); printf("\xb2\xb2\xb2");
+    gotoxy(28,10);Sleep(50);printf("\xb2\xb2\xb2");
+    gotoxy(25,11);Sleep(50);printf("\xb2\xb2\xb2");
+    gotoxy(23,9);Sleep(50);printf("\xb2\xb2\xb2");
+    gotoxy(30,8);Sleep(50);printf("\xb2\xb2\xb2");
+    gotoxy(31,6);Sleep(50);printf("\xb2\xb2\xb2");
+    gotoxy(21,6); Sleep(100);printf("\xb2\xb2\xb2");
+    gotoxy(29,9);Sleep(100);printf("\xb2\xb2\xb2");
+    gotoxy(27,11);Sleep(100);printf("\xb2\xb2\xb2");
+    gotoxy(26,4);Sleep(100); printf("\xb2\xb2\xb2");
+    gotoxy(26,12);Sleep(100);printf("\xb2\xb2\xb2");
+    gotoxy(24,10);Sleep(100);printf("\xb2\xb2\xb2");
+    gotoxy(21,7);Sleep(100); printf("\xb2\xb2\xb2");
+    gotoxy(31,5);Sleep(100); printf("\xb2\xb2\xb2");
+    gotoxy(30,4);Sleep(100);printf("\xb2\xb2\xb2");
+    gotoxy(27,3);Sleep(100);printf("\xb2\xb2\xb2");
+    gotoxy(31,7);Sleep(100);printf("\xb2\xb2\xb2");
+    gotoxy(21,5); Sleep(100);printf("\xb2\xb2\xb2");
+    gotoxy(24,2);Sleep(100);printf("\xb2\xb2\xb2");
+
+
+    gotoxy(40,2);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(40,4);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(40,6);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(40,8);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(40,10);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(40,3);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(40,5);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(40,7);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(40,9);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(40,11);Sleep(50);printf("\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2");
+    gotoxy(42,12);Sleep(50);printf("\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2");
+    gotoxy(50,2);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(50,4);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(50,6);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(50,8);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(50,10);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(50,3);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(50,5);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(50,7);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+    gotoxy(50,9);Sleep(50);printf("\xb2\xb2\xb2\xb2");
+
+    gotoxy(20,21);
+
+
+
+}
